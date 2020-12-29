@@ -1,0 +1,14 @@
+{"index": {"_index": "books","_type":"author","_id":"24"}}
+{"name":"Michael Smith","book_count":3}
+{"index": {"_index": "books","_type":"author","_id":"23"}}
+{"name":"Mark Smith","book_count":43}
+{"index": {"_index": "books","_type":"author","_id":"21"}}
+{"name":"Mary Janes","book_count":66}
+{"index": {"_index": "books","_type":"author","_id":"20"}}
+{"name":"Todd Jones","book_count":98}
+{"index": {"_index": "books","_type":"author","_id":"25"}}
+{"name":"Robert Jones","book_count":2}
+{"index": {"_index": "books","_type":"author","_id":"26"}}
+{"name":"George Sun","book_count":3}
+{"index": {"_index": "books","_type":"author","_id":"27"}}
+{"name":"Gary Indy","book_count":5}

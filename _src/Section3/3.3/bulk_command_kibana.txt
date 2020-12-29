@@ -1,0 +1,7 @@
+POST /books/_bulk
+{"index": {"_index": "books","_type":"author","_id":"70"}}
+{"name":"MS","book_count":1}
+{"index": {"_index": "books","_type":"author","_id":"71"}}
+{"name":"M Smith","book_count":3}
+{"index": {"_index": "books","_type":"author","_id":"72"}}
+{"name":"Mary J","book_count":6}

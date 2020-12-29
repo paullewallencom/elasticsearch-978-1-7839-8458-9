@@ -1,0 +1,41 @@
+//create two fake indices and delete the books index
+
+
+//Get shards & replicas for ALL nodes
+curl -XGET http://localhost:9200/_cat/indices?v
+
+//Get shards & replicas for a specific index
+curl -XGET http://localhost:9200/INDEX_NAME?pretty
+
+//Delete index
+curl -XDELETE http://localhost:9200/books
+
+
+[SWITCH TO KIBANA]
+//Re-create index with shards and replicas -> How to set the number of shards and replicas
+
+PUT /books
+{
+	"settings": {
+		"number_of_shards":1,
+		"number_of_replicas":0
+	}
+}
+
+
+
+//Now let's see what happens when I attempt to change the number of shards
+PUT /books/_settings
+{
+	"number_of_shards":4
+}
+
+
+
+//Now let's attempt to modify the number of replicas
+PUT /books/_settings
+{
+	"number_of_replicas":6
+}
+
+//As you can see, that worked!

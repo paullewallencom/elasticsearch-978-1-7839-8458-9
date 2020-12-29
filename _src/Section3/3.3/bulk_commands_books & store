@@ -1,0 +1,5 @@
+#books.json and store.json files must be in the elasticsearch root directory
+
+curl  -XPOST http://localhost:9200/books/_bulk --data-binary @books.json
+
+curl  -XPOST http://localhost:9200/books/_bulk --data-binary @store.json

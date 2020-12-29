@@ -1,0 +1,11 @@
+{"index": {"_index": "books","_type":"store","_id":"1"}}
+{"name":"Books and Books","pin": { "location": {"lat": 25.750212, "lon": -80.260589}}}
+{"index": {"_index": "books","_type":"store","_id":"2"}}
+{"name":"Bookshop Santa Cruz","pin": { "location": {"lat": 36.975488, "lon": -122.026382}}}
+{"index": {"_index": "books","_type":"store","_id":"3"}}
+{"name":"Northshire Bookstore","pin": { "location": {"lat": 43.176820, "lon": -73.057215}}}
+{"index": {"_index": "books","_type":"store","_id":"4"}}
+{"name":"Powell's City of Books","pin": { "location": {"lat": 45.523097, "lon": -122.681325}}}
+{"index": {"_index": "books","_type":"store","_id":"5"}}
+{"name":"The Tattered Cover Bookstore","pin": { "location": {"lat": 39.718454, "lon": -104.952568}}}
+
